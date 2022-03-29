@@ -2,7 +2,7 @@ Tbombe 3.0
 
 By master-hack
   
-The running commends
+The running commands
 ____________________________________________________________________________
  
 
