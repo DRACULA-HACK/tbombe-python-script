@@ -32,15 +32,15 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing TBomb'
     else
-                 figlet TBomb3.0
+                 figlet TBomb 3.0
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mIncredible Hacker \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mMaster Hacke . dracula-hack \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
         figlet Master-hack
     printf "\033[1;93m[\033[1;77m::\033[1;93m]	    \033[1;92m   Code by : \033[1;97m   master-hack	    \033[1;93m[\033[1;77m::\033[1;93m]"
-	printf "\n\033[1;93m[\033[1;77m::\033[1;93m]	\033[1;92mmodify code by : \033[1;97m Incredible Hacker \033[1;93m[\033[1;77m::\033[1;93m]\n"
+     printf "\n\033[1;93m[\033[1;77m::\033[1;93m]	\033[1;92mcontact number : \033[1;97m +91 6235369260 \033[1;93m[\033[1;77m::\033[1;93m]\n"
     echo " "
     echo " "
     echo -e            *Requirements:*
@@ -118,7 +118,7 @@ do
     
     echo " "
     echo -e "'\033[1;31m                           ⫸ Coded by\033[1;32m faizan\033[1;31m ⫷\033[0m"
-    echo -e "'\033[1;31m                         ⫸\033[1;33m Incredible Hackers\033[1;31m ⫷\033[0m"
+    echo -e "'\033[1;31m                         ⫸\033[1;33master-Hackke\033[1;31m ⫷\033[0m"
     echo 
     echo -e "'\033[1;36m############################# \033[1;32m [Features] \033[1;36m ###################################"
 echo " "
@@ -138,13 +138,13 @@ echo " "
     clear
    if [ $ch -eq 1 ];then
         cd $HOME
-        cd TBomb2.0
+        cd tbombe-python-script
         python3 bomber.py
        
         exit
     elif [ $ch -eq 2 ];then
         cd $HOME
-        cd TBomb2.0
+        cd tbombe-python-script
         python3 bomber.py
         
         exit
@@ -159,15 +159,15 @@ echo " "
         exit
     elif [ $ch -eq 4 ];then
         cd $HOME
-        cd TBomb2.0
-        bash TBomb2.0.sh
+        cd tbombe-python-script
+        bash TBomb3.0.sh
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
-        rm -rf TBomb
+        rm -rf tbombe-python-script
         https://github.com/IncredibleHacker/TBomb-2.0
-        cd TBomb2.0
-        bash TBomb2.0.sh
+        cd tbombe-python-script
+        bash TBomb3.0.sh
        
         exit
     elif [ $ch -eq 6 ];then
