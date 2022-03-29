@@ -3,12 +3,18 @@ Tbombe 3.0
 By master-hack
   
 The running commends
+____________________________________________________________________________
+ 
 
-  pkg install git
+ 
+pkg install git
+
 
  git clone https://github.com/DRACULA-HACK/tbombe-python-script
  
+
  cd tbombe-python-script
+
  
  
  bash TBomb2.0.sh
@@ -17,7 +23,7 @@ The running commends
 
    python bomber.py
    
-___________________________________________
+____________________________________________________________________________
    It is Not ready
     
      Working !!!
